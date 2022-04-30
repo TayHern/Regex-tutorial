@@ -5,7 +5,9 @@ What is regex?  Many people new to web development like myself would be confused
 ## Summary
 
 There are many ways regex can be used in your own lines of code.  In this tutorial, we will be matching an email.  By doing this we are making sure that the user input is a valid email rather than just a bunch of words.  Below is line of regex code we will be using:
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.
+
+You can also find this at https://gist.github.com/TayHern/cf7a8481860a3e24a7167b8b1556753b
 
 ## Table of Contents
 
